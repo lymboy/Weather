@@ -41,8 +41,7 @@ CMD [ "gunicorn", "-b", "0.0.0.0:8000", "main:app" ]
 
 ## 代码开发
 
-![](https://itbird.oss-cn-beijing.aliyuncs.com/img-md/2022/01/09/历史天气系统架构.png)
-
+![](https://itbird.oss-cn-beijing.aliyuncs.com/img-md/2022/01/09/architecture.png)
 本项目采用前后端分离开发。前端使用Vue3，Element Plus，Echarts和Axios。后端使用Python3和Flash框架，天气数据爬取自`http://tianqi.2345.com`。
 
 
